@@ -1,8 +1,7 @@
-
 /*step 4 - iteration 1 */
 .target {
-    width:100px;
-    height:100px;
+    width: 100px;
+    height: 100px;
     margin: 50px;
     background-color: red;
     border: 3px dotted #17212e;
@@ -10,9 +9,45 @@
 }
 
 .bigbox {
-    width:200px;
-    height:200px;
+    width: 200px;
+    height: 200px;
     border: 3px solid #17212e;
 }
 
 /*step 4 - iteration 2 */
+
+table {
+    width: 300px;
+    height: 150px;
+}
+
+td {
+    border: 1px solid #17212e;
+
+}
+
+td.secondrow:nth-child(odd) {
+    background-color: lightblue;
+}
+
+/*step 4 - iteration 3 */
+
+.purplebox {
+    background-color: #6f00ff ;
+    color: white;
+    padding: 2px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+.outerbox {
+    width: 300px;
+    border: 1px solid #797a7c;
+}
+.righttextalign {
+    text-align: right;
+}
+.boxright {
+    text-align: right;
+    margin-left: auto;
+    margin-right: 2px;
+}
